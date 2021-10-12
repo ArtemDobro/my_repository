@@ -181,6 +181,4 @@ private:
     Deleter deleter_;
     bool is_reset_ = false;
 };
-// int main() {
-//     std::unique_ptr<unsigned char[]> testData(new unsigned char[16000]());
-// }
+
