@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83d40c28-75ce-448c-b060-7638f7782566" name="Changes" comment="fix bugges,delete excess controllers">
+      <change beforePath="$PROJECT_DIR$/../2022-02-18 09-39-45.mkv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022-02-21 10-11-56.mkv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/Bookmark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/Feedback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/Lesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/NewColorOfAvatar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/NewFont.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/Person$PersonBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/Purchase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/CommandProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/commands/AddLessonCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/commands/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/commands/LoginationAdminCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/commands/LoginationUserCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/commands/RegistrationAdminCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/commands/RegistrationUserCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/controllerImpl/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/controllerImpl/LessonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/controller/controllerImpl/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/dao/AdminDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/dao/DAOProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/dao/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/dao/LessonDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/dao/impl/StorageAdminDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/dao/impl/StorageLessonDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/dao/impl/StorageUserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/presentation/PersonActionViewer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/presentation/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/presentation/ViewImpl/AddLessonCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/presentation/ViewImpl/LoginationAdminCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/presentation/ViewImpl/LoginationUserCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/presentation/ViewImpl/RegistrationAdminCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/presentation/ViewImpl/RegistrationUserCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/service/LessonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/service/ServiceProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/service/impl/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/service/impl/LessonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/utils/GenericTuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/view/menu/AuthorizationAdminMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/view/menu/AuthorizationUserMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/view/menu/CommandsAdminMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/view/menu/RegistrationAdminMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/by/epam/Dobrohotov/view/menu/RegistrationUserMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/english_web/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/english_web/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/CommandProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/CommandProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/AddLessonCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/AddLessonCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/LoginationAdminCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/LoginationAdminCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/LoginationUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/LoginationUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/RegistrationAdminCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/RegistrationAdminCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/RegistrationUserCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/RegistrationUserCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/presentation/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/presentation/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/view/menu/AuthorizationAdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/view/menu/AuthorizationAdminMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e4b21c37-45ad-443f-97fb-b1b42313e7ab" />
+        <option name="url" value="https://github.com/ArtemDobro/my_repository" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectId" id="250tkbbwCzupiMp7m5ChpumMSvR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="controller" />
+      <recent name="bean" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="english_web" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83d40c28-75ce-448c-b060-7638f7782566" name="Changes" comment="" />
+      <created>1644675979933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644675979933</updated>
+      <workItem from="1644675981329" duration="5306000" />
+      <workItem from="1644736261257" duration="15298000" />
+      <workItem from="1644848019191" duration="18546000" />
+      <workItem from="1644940041122" duration="3034000" />
+      <workItem from="1644991423451" duration="2426000" />
+      <workItem from="1645026335620" duration="6792000" />
+      <workItem from="1645093061682" duration="4281000" />
+      <workItem from="1645108064194" duration="2486000" />
+      <workItem from="1645163704169" duration="6251000" />
+      <workItem from="1645262996406" duration="10091000" />
+      <workItem from="1645366328420" duration="10311000" />
+      <workItem from="1645423430305" duration="10036000" />
+      <workItem from="1645513176576" duration="4912000" />
+      <workItem from="1645521511578" duration="2643000" />
+      <workItem from="1645524213885" duration="15977000" />
+      <workItem from="1645700383368" duration="3715000" />
+      <workItem from="1647848724568" duration="446000" />
+    </task>
+    <task id="LOCAL-00001" summary="english">
+      <created>1645164392976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645164392976</updated>
+    </task>
+    <task id="LOCAL-00002" summary="English_web">
+      <created>1645164643230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645164643230</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change names of packages">
+      <created>1645165675858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645165675858</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add equals and hashcode">
+      <created>1645166579509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645166579509</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add default constructor">
+      <created>1645168032555</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645168032555</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change name of method">
+      <created>1645169272980</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645169272980</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add View and change returning value">
+      <created>1645269517502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645269517502</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change every returning string to View">
+      <created>1645284497906</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645284497906</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add CommandsAdminMenu">
+      <created>1645384057046</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645384057046</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added all features to addLesson">
+      <created>1645423492388</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645423492388</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added all features to addLesson/2">
+      <created>1645426945408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645426945408</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added all features to addLesson/2/2das">
+      <created>1645427685271</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645427685271</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added all features to addLesson/2/2das">
+      <created>1645427860490</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645427860490</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added all features to addLesson/2/2das">
+      <created>1645428011428</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645428011428</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added all features to addLesson/2/2das">
+      <created>1645516263482</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1645516263482</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added all features to addLesson/2/2das">
+      <created>1645517764426</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645517764426</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added all features to addLesson1212">
+      <created>1645524498213</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645524498213</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added all features">
+      <created>1645524629195</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645524629195</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added all features">
+      <created>1645527689238</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1645527689238</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added all features">
+      <created>1645528877730</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1645528877730</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix bugges,delete excess controllers">
+      <created>1645621837843</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1645621837843</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="english" />
+    <MESSAGE value="English_web" />
+    <MESSAGE value="change names of packages" />
+    <MESSAGE value="add equals and hashcode" />
+    <MESSAGE value="add default constructor" />
+    <MESSAGE value="change name of method" />
+    <MESSAGE value="add View and change returning value" />
+    <MESSAGE value="change every returning string to View" />
+    <MESSAGE value="Add CommandsAdminMenu" />
+    <MESSAGE value="added all features to addLesson" />
+    <MESSAGE value="added all features to addLesson/2" />
+    <MESSAGE value="added all features to addLesson/2/2das" />
+    <MESSAGE value="added all features to addLesson1212" />
+    <MESSAGE value="added all features" />
+    <MESSAGE value="fix bugges,delete excess controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugges,delete excess controllers" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/controller/commands/LoginationUserCommand.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/dao/impl/StorageUserDAO.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/dao/impl/StorageUserDAO.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/view/menu/RegistrationUserMenu.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/epam/dobrohotov/englishWeb/dao/impl/StorageLessonDAO.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="DAO.impl.StoragePersonDao" memberName="dataSource" />
+        <PinnedItemInfo parentTag="DAO.DataSource" memberName="mapUsers" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
